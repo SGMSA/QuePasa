@@ -50,9 +50,7 @@ $offset_col : $max_width / $max_cols;
 
 [class*='col-'] {
     float: left;
-    padding-right: 10px;
     min-height: 40px;
-    padding: 10px;
 }
 
 [class*='offset-'] {
@@ -75,6 +73,7 @@ $offset_col : $max_width / $max_cols;
 
 body {
     margin: 0;
+    background-color: aliceblue;
 }
 
 .head {
@@ -84,5 +83,11 @@ body {
 
 .main {
     @include border; 
-    height: 300px;
+    height: 700px;
+    margin-top: 10px; 
+}
+
+[class*='tab-'] {
+    @include border;
+    height: 600px;
 }

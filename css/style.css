@@ -157,40 +157,46 @@
 /* line 51, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 [class*='col-'] {
   float: left;
-  padding-right: 10px;
   min-height: 40px;
-  padding: 10px;
 }
 
-/* line 58, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 56, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 [class*='offset-'] {
   float: left;
   padding-right: 10px;
   height: 40px;
 }
 
-/* line 64, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 62, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 [class*='col-']:last-of-type {
   padding-right: 0;
 }
 
 /* Start of mixins */
 /* Start of main code */
-/* line 76, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 74, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 body {
   margin: 0;
+  background-color: aliceblue;
 }
 
-/* line 80, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 79, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .head {
   height: 100px;
   border: solid 1px black;
 }
 
-/* line 85, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 84, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .main {
   border: solid 1px black;
-  height: 300px;
+  height: 700px;
+  margin-top: 10px;
+}
+
+/* line 90, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+[class*='tab-'] {
+  border: solid 1px black;
+  height: 600px;
 }
 
 /*# sourceMappingURL=../css/style.map */
