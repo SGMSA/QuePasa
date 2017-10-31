@@ -1,125 +1,126 @@
-/* line 6, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/*Start of responsive code */
+/* line 8, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .col-1 {
   width: 8.33333%;
 }
 
-/* line 6, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 8, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .col-2 {
   width: 16.66667%;
 }
 
-/* line 6, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 8, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .col-3 {
   width: 25%;
 }
 
-/* line 6, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 8, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .col-4 {
   width: 33.33333%;
 }
 
-/* line 6, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 8, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .col-5 {
   width: 41.66667%;
 }
 
-/* line 6, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 8, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .col-6 {
   width: 50%;
 }
 
-/* line 6, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 8, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .col-7 {
   width: 58.33333%;
 }
 
-/* line 6, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 8, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .col-8 {
   width: 66.66667%;
 }
 
-/* line 6, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 8, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .col-9 {
   width: 75%;
 }
 
-/* line 6, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 8, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .col-10 {
   width: 83.33333%;
 }
 
-/* line 6, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 8, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .col-11 {
   width: 91.66667%;
 }
 
-/* line 6, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 8, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .col-12 {
   width: 100%;
 }
 
 /* Offset width loop */
-/* line 16, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 18, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .offset-1 {
   width: 8.33333%;
 }
 
-/* line 16, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 18, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .offset-2 {
   width: 16.66667%;
 }
 
-/* line 16, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 18, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .offset-3 {
   width: 25%;
 }
 
-/* line 16, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 18, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .offset-4 {
   width: 33.33333%;
 }
 
-/* line 16, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 18, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .offset-5 {
   width: 41.66667%;
 }
 
-/* line 16, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 18, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .offset-6 {
   width: 50%;
 }
 
-/* line 16, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 18, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .offset-7 {
   width: 58.33333%;
 }
 
-/* line 16, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 18, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .offset-8 {
   width: 66.66667%;
 }
 
-/* line 16, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 18, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .offset-9 {
   width: 75%;
 }
 
-/* line 16, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 18, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .offset-10 {
   width: 83.33333%;
 }
 
-/* line 16, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 18, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .offset-11 {
   width: 91.66667%;
 }
 
-/* line 16, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 18, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 .offset-12 {
   width: 100%;
 }
 
-/* line 19, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 21, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 *,
 *:after,
 *:before {
@@ -130,26 +131,26 @@
   box-sizing: border-box;
 }
 
-/* line 29, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 31, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 body {
   margin: 0;
 }
 
-/* line 33, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 35, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 [class*='.row-']:before {
   content: "";
   clear: both;
   display: table;
 }
 
-/* line 39, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 41, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 [class*='row-']:after {
   content: "";
   clear: both;
   display: table;
 }
 
-/* line 45, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 47, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 [class*='col-'] {
   float: left;
   padding-right: 10px;
@@ -157,16 +158,23 @@ body {
   padding: 10px;
 }
 
-/* line 52, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 54, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 [class*='offset-'] {
   float: left;
   padding-right: 10px;
   height: 40px;
 }
 
-/* line 58, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+/* line 60, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
 [class*='col-']:last-of-type {
   padding-right: 0;
+}
+
+/* Start of main code */
+/* line 66, C:/Users/Sam/Documents/QuePasa/scss/style.scss */
+.head {
+  height: 100px;
+  border: solid 1px black;
 }
 
 /*# sourceMappingURL=../css/style.map */

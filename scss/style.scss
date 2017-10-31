@@ -1,3 +1,5 @@
+/*Start of responsive code */
+
 $max_cols : 12;
 $max_width : 100%;
 $single_col : $max_width / $max_cols;
@@ -57,4 +59,11 @@ body {
 
 [class*='col-']:last-of-type {
     padding-right: 0;
+}
+
+/* Start of main code */
+
+.head {
+    height: 100px;
+    border: solid 1px black;
 }
