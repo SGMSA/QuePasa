@@ -1,0 +1,60 @@
+$max_cols : 12;
+$max_width : 100%;
+$single_col : $max_width / $max_cols;
+
+@for $i from 1 through 12 {
+    .col-#{$i} { width: $single_col * $i }
+}
+
+/* Offset width loop */
+
+$max_cols : 12;
+$max_width : 100%;
+$offset_col : $max_width / $max_cols;
+
+@for $i from 1 through 12 {
+    .offset-#{$i} { width: $offset_col * $i }
+}
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+}
+
+[class*='.row-']:before {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+[class*='row-']:after {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+[class*='col-'] {
+    float: left;
+    padding-right: 10px;
+    min-height: 40px;
+    padding: 10px;
+}
+
+[class*='offset-'] {
+    float: left;
+    padding-right: 10px;
+    height: 40px;
+}
+
+[class*='col-']:last-of-type {
+    padding-right: 0;
+}
